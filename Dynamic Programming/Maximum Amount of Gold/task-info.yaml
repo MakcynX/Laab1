@@ -1,0 +1,42 @@
+type: edu
+files:
+  - name: logo.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: maximum_gold_unit_tests.py
+    visible: true
+    placeholders:
+      - offset: 278
+        length: 215
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 278
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+  - name: maximum_gold.py
+    visible: true
+    placeholders:
+      - offset: 200
+        length: 281
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 204
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/nZrTS/programming-assignment-6-dynamic-programming-2/discussions
+status: Unchecked
+feedback:
+  message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/nZrTS/programming-assignment-6-dynamic-programming-2/submission\"\
+    >submit to Coursera</a>"
+  time: "Tue, 05 May 2026 10:23:20 UTC"
+record: -1

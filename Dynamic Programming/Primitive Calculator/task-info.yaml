@@ -1,0 +1,42 @@
+type: edu
+files:
+  - name: logo.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: primitive_calculator_unit_tests.py
+    visible: true
+    placeholders:
+      - offset: 186
+        length: 19
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 186
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: primitive_calculator.py
+    visible: true
+    placeholders:
+      - offset: 67
+        length: 673
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 72
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/discussions
+status: Unchecked
+feedback:
+  message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/submission\"\
+    >submit to Coursera</a>"
+  time: "Tue, 05 May 2026 09:46:59 UTC"
+record: -1

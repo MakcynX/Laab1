@@ -1,0 +1,31 @@
+import unittest
+from binary_search import binary_search, linear_search
+
+
+class TestBinarySearch(unittest.TestCase):
+    def test_small(self):
+        for (keys, query) in [
+            ([1, 2, 3], 1),
+            ([4, 5, 6], 7),
+            ([1, 5, 8, 12, 13], 8),
+            ([1, 5, 8, 12, 13], 1),
+            ([1, 5, 8, 12, 13], 13),
+            ([1, 5, 8, 12, 13], 7),
+        ]:
+            self.assertEqual(
+                linear_search(keys, query),
+                binary_search(keys, query)
+            )
+
+    def test_large(self):
+        for (keys, query, answer) in [
+            (list(range(10 ** 4)), 10 ** 4, -1),
+            (list(range(10 ** 5)), 99999, 99999),
+            (list(range(10 ** 5)), 10 ** 5 + 1, -1),
+            (list(range(10 ** 4)), 239, 239),
+        ]:
+            self.assertEqual(binary_search(keys, query), answer)
+
+
+if __name__ == '__main__':
+    unittest.main()

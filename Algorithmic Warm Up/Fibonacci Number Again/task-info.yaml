@@ -1,0 +1,50 @@
+type: edu
+files:
+  - name: fibonacci_number_again.py
+    visible: true
+    placeholders:
+      - offset: 364
+        length: 432
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 369
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+  - name: fibonacci_number_again_unit_tests.py
+    visible: true
+    placeholders:
+      - offset: 455
+        length: 0
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 456
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: logo.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: table1.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: table2.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
+status: Unchecked
+feedback:
+  message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission\"\
+    >submit to Coursera</a>"
+  time: "Tue, 05 May 2026 07:41:05 UTC"
+record: -1

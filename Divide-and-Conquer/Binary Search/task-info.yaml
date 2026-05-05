@@ -1,0 +1,51 @@
+type: edu
+files:
+  - name: binary_search_unit_tests.py
+    visible: true
+    placeholders:
+      - offset: 241
+        length: 132
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 241
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+      - offset: 643
+        length: 90
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 520
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+  - name: logo.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: binary_search.py
+    visible: true
+    placeholders:
+      - offset: 288
+        length: 254
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 288
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
+status: Unchecked
+feedback:
+  message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission\"\
+    >submit to Coursera</a>"
+  time: "Tue, 05 May 2026 08:27:45 UTC"
+record: -1

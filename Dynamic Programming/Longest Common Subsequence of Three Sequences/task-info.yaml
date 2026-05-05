@@ -1,0 +1,42 @@
+type: edu
+files:
+  - name: logo.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: lcs3_unit_tests.py
+    visible: true
+    placeholders:
+      - offset: 406
+        length: 126
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 406
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+  - name: lcs3.py
+    visible: true
+    placeholders:
+      - offset: 191
+        length: 858
+        placeholder_text: type here
+        initial_state:
+          length: 9
+          offset: 191
+        initialized_from_dependency: false
+        selected: true
+        status: Unchecked
+    learner_created: false
+feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/discussions
+status: Unchecked
+feedback:
+  message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/submission\"\
+    >submit to Coursera</a>"
+  time: "Tue, 05 May 2026 10:09:46 UTC"
+record: -1
